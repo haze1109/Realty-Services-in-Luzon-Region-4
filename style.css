@@ -162,3 +162,17 @@ h2, h3, h4, h5, h6 {
     
      
   }
+
+  .properties h2{
+    background-color: brown;
+    margin-bottom: 5px;
+  }
+  .properties img {
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+  .properties:hover h2{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+  }

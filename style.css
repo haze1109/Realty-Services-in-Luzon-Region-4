@@ -170,6 +170,7 @@ h2, h3, h4, h5, h6 {
   .properties img {
     margin: 0 auto;
     padding: 0 auto;
+    justify-content: center;
   }
 
   .properties:hover h2{

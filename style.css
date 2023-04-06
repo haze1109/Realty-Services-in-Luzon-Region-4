@@ -56,7 +56,7 @@ h2, h3, h4, h5, h6 {
   }
 
   .nav-link {
-    color: #fff;
+    color: #0099ff;
   }
 
  
@@ -79,4 +79,30 @@ h2, h3, h4, h5, h6 {
     width: 40px;
     margin-top: 0;
     padding-top: 0;
+  }
+
+
+  .navbar:hover .nav-link{
+    color: #fff;
+  }
+
+  .navbar-brand:hover img{
+    background-color: #fff;
+    border-radius: 50%;
+  }
+ 
+
+  @media (max-width: 768px) {
+    .navbar:hover .nav-link{
+        color: #fff;
+      }
+      .navbar:hover .nav-link active{
+        color: #fff;
+      }
+    
+      .navbar-brand:hover img{
+        background-color: #fff;
+        border-radius: 50%;
+      }
+     
   }

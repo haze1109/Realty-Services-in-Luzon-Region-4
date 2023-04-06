@@ -1,0 +1,82 @@
+*,
+h1,
+h2, h3, h4, h5, h6 {
+    font-family: 'Barlow', sans-serif;
+  }
+
+
+.container-fluid{
+    background-color: #333;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
+.form-control {
+    flex: 1; /* Make the placeholder take up remaining space within the container */
+    height: 40px; /* Set the height of the placeholder */
+    padding: 10px; /* Add padding to the placeholder for spacing */
+}
+
+.btn {
+    height: 40px; /* Set the height of the button to match the placeholder */
+    margin-left: 10px; /* Add margin to the left of the button for spacing */
+}
+
+
+.hero {
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .wave-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 90%;
+  }
+  
+  .hero-image {
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-image h1 {
+    color: #fff;
+  }
+  .hero-image p, h2{
+    text-align: center;
+    justify-content: center;
+    color: #333;
+    margin: 0 auto;
+  }
+
+  .nav-link {
+    color: #fff;
+  }
+
+ 
+  .hero-image--profile {
+    width: 100%;
+    border-radius: 10%;
+  }
+
+  @media (max-width: 768px) {
+   .hero-image--profile {
+    width: 50%;
+    position: relative;
+    margin-top: 5%;
+    justify-content: center;
+    text-align: center;
+    }
+  }
+
+  .navbar-brand img{
+    width: 40px;
+    margin-top: 0;
+    padding-top: 0;
+  }

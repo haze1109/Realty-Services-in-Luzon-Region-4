@@ -155,9 +155,9 @@ h2, h3, h4, h5, h6 {
       }
     
       .navbar:hover .nav-link:hover {
-        background-color: brown; /* Set the desired background color on hover */
-        border-radius: 50%; /* Add any additional styles as needed */
-        color: #fff; /* Set the desired text color on hover */
+        background-color: brown;
+        color: #fff;
+        border-radius: 1px;
       }
     
      

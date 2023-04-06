@@ -65,6 +65,35 @@ h2, h3, h4, h5, h6 {
     border-radius: 10%;
   }
 
+  .hero-image--profile {
+    /* Set initial rotation angle to 0 degrees */
+    transform: rotate(0deg);
+    /* Add transition for smooth animation */
+    transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    background-color: brown;
+  }
+  
+  .hero-image--profile:hover {
+    /* Apply a 45 degree clockwise rotation on hover */
+    transform: rotate(45deg);
+  }
+  
+/* navbar-brandlogo */
+
+  .navbar-brand:hover img{
+    /* Set initial rotation angle to 0 degrees */
+    transform: rotate(0deg);
+    /* Add transition for smooth animation */
+    transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    background-color: brown;
+  }
+  
+  .navbar-brand:hover {
+    /* Apply a 45 degree clockwise rotation on hover */
+    transform: rotate(90deg);
+  }
+  
+
   @media (max-width: 768px) {
    .hero-image--profile {
     width: 50%;
@@ -72,6 +101,7 @@ h2, h3, h4, h5, h6 {
     margin-top: 5%;
     justify-content: center;
     text-align: center;
+    background-color: brown;
     }
   }
 
@@ -80,14 +110,14 @@ h2, h3, h4, h5, h6 {
     margin-top: 0;
     padding-top: 0;
   }
-
+ 
 
   .navbar:hover .nav-link{
     color: #fff;
   }
 
   .navbar-brand:hover img{
-    background-color: #fff;
+    background-color: brown;
     border-radius: 50%;
   }
  
@@ -101,8 +131,8 @@ h2, h3, h4, h5, h6 {
       }
     
       .navbar-brand:hover img{
-        background-color: #fff;
+        background-color: brown;
         border-radius: 50%;
       }
-     
+    
   }

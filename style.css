@@ -79,11 +79,8 @@ h2, h3, h4, h5, h6, body {
   }
 
   .hero-image--profile {
-    /* Set initial rotation angle to 0 degrees */
     transform: rotate(0deg);
-    /* Add transition for smooth animation */
     transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    background-color: brown;
   }
   
   .hero-image--profile:hover {
@@ -197,7 +194,7 @@ h2, h3, h4, h5, h6, body {
 
   .social li{
     margin-right: 10px;
-   font-size: 40px;
+    font-size: 20px;
   }
 
 
@@ -272,4 +269,10 @@ td:hover {
   background-color: #f0f0f0;
   cursor: pointer;
   transform: scale(1.1);
+}
+ 
+@media (max-width: 768px) {
+  .intro-video {
+    height: 200px;
+  }
 }

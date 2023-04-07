@@ -61,7 +61,8 @@ h2, h3, h4, h5, h6, body {
     top: 0; /* Adjust as needed */
     z-index: 100; /* Adjust as needed */
     background-color: #f2f2f2; /* Example background color */
-    /* Additional styles as needed */
+    margin-top: 0;
+    padding-top: 0;
   }
   
 
@@ -176,9 +177,8 @@ h2, h3, h4, h5, h6, body {
   }
 
   .properties h2{
-    background-color: #333;
     margin-bottom: 5px;
-    color: #fff;
+    color: #333;
   }
   .properties img {
     margin: 0 auto;
@@ -186,10 +186,10 @@ h2, h3, h4, h5, h6, body {
     justify-content: center;
   }
 
-  .properties:hover h2{
+  /* .properties:hover h2{
     transition: transform 0.3s ease-in-out;
     transform: scale(1.1);
-  }
+  } */
   .house:hover{
     transition: transform 0.3s ease-in-out;
     transform: scale(1.1);
@@ -206,23 +206,41 @@ h2, h3, h4, h5, h6, body {
    font-size: 40px;
   }
 
-  .contact h2 {
+  /* .contact h2 {
     background-color: #333;
     padding-top: 5px;
     color: #fff;
-  }
+  } */
 
 
   .contact-me li {
     list-style-type: none;
   }
 
-  .contact:hover h2{
+  /* .contact:hover h2{
     transition: transform 0.3s ease-in-out;
     transform: scale(1.1);
-  }
+  } */
 .soc:hover, .soc:hover {
   transition: transform 0.3s ease-in-out;
   transform: scale(1.1);
+  color: #333;
 
+}
+
+.amen img{
+  width: 100%;
+  display: flex;
+  padding: 0 auto;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.amen-pic:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+.units {
+  display: flex;
+  justify-content: center;
 }

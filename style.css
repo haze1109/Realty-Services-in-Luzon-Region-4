@@ -55,6 +55,18 @@ h2, h3, h4, h5, h6, body {
     margin: 0 auto;
   }
 
+  .navbar {
+    /* Navbar styles here */
+    position: sticky;
+    top: 0; /* Adjust as needed */
+    z-index: 100; /* Adjust as needed */
+    background-color: #f2f2f2; /* Example background color */
+    /* Additional styles as needed */
+  }
+  
+
+
+
   .nav-link {
     color: #0099ff;
   }
@@ -178,6 +190,10 @@ h2, h3, h4, h5, h6, body {
     transition: transform 0.3s ease-in-out;
     transform: scale(1.1);
   }
+  .house:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+  }
 
   .social {
     display: flex;
@@ -205,3 +221,8 @@ h2, h3, h4, h5, h6, body {
     transition: transform 0.3s ease-in-out;
     transform: scale(1.1);
   }
+.soc:hover, .soc:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
+
+}

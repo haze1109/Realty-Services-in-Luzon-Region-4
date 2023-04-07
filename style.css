@@ -109,7 +109,6 @@ h2 {
     margin-top: 5%;
     justify-content: center;
     text-align: center;
-    background-color: brown;
   }
 }
 
@@ -120,9 +119,9 @@ h2 {
 }
 
 .navbar:hover .nav-link:hover {
-  background-color: brown; /* Set the desired background color on hover */
-  border-radius: 50%; /* Add any additional styles as needed */
-  color: #fff; /* Set the desired text color on hover */
+  background-color: brown; 
+  border-radius: 50%;
+  color: #fff; 
 }
 
 .navbar:hover .nav-link {

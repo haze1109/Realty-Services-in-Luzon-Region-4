@@ -304,3 +304,12 @@ td:hover {
     margin-bottom: 15px;
   }
 }
+
+
+ /* Center the modal on mobile view */
+ @media (max-width: 768px) {
+  .modal-dialog {
+    margin: 0 auto;
+  }
+}
+

@@ -171,9 +171,7 @@ h2, h3, h4, h5, h6, body {
         background-color: brown;
         color: #fff;
         border-radius: 1px;
-      }
-    
-     
+      }   
   }
 
   .properties h2{
@@ -186,10 +184,6 @@ h2, h3, h4, h5, h6, body {
     justify-content: center;
   }
 
-  /* .properties:hover h2{
-    transition: transform 0.3s ease-in-out;
-    transform: scale(1.1);
-  } */
   .house:hover{
     transition: transform 0.3s ease-in-out;
     transform: scale(1.1);
@@ -206,21 +200,14 @@ h2, h3, h4, h5, h6, body {
    font-size: 40px;
   }
 
-  /* .contact h2 {
-    background-color: #333;
-    padding-top: 5px;
-    color: #fff;
-  } */
+
 
 
   .contact-me li {
     list-style-type: none;
   }
 
-  /* .contact:hover h2{
-    transition: transform 0.3s ease-in-out;
-    transform: scale(1.1);
-  } */
+ 
 .soc:hover, .soc:hover {
   transition: transform 0.3s ease-in-out;
   transform: scale(1.1);
@@ -243,4 +230,23 @@ h2, h3, h4, h5, h6, body {
 .units {
   display: flex;
   justify-content: center;
+}
+.units {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.units ul{
+  list-style-type: none;
+}
+.carousel-caption p {
+  font-size: 16px;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption p {
+    color: #000;
+  }
 }

@@ -164,7 +164,7 @@ h2, h3, h4, h5, h6, body {
   }
 
   .properties h2{
-    background-color: brown;
+    background-color: #333;
     margin-bottom: 5px;
     color: #fff;
   }
@@ -191,7 +191,7 @@ h2, h3, h4, h5, h6, body {
   }
 
   .contact h2 {
-    background-color: brown;
+    background-color: #333;
     padding-top: 5px;
     color: #fff;
   }
@@ -199,4 +199,9 @@ h2, h3, h4, h5, h6, body {
 
   .contact-me li {
     list-style-type: none;
+  }
+
+  .contact:hover h2{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
   }

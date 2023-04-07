@@ -250,3 +250,13 @@ h2, h3, h4, h5, h6, body {
     color: #000;
   }
 }
+
+.table tr, th, td{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.table th {
+  font-size: 20px;
+}

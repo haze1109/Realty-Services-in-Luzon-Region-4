@@ -1,6 +1,6 @@
 *,
 h1,
-h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6, body {
     font-family: 'Barlow', sans-serif;
   }
 
@@ -166,6 +166,7 @@ h2, h3, h4, h5, h6 {
   .properties h2{
     background-color: brown;
     margin-bottom: 5px;
+    color: #fff;
   }
   .properties img {
     margin: 0 auto;
@@ -176,4 +177,26 @@ h2, h3, h4, h5, h6 {
   .properties:hover h2{
     transition: transform 0.3s ease-in-out;
     transform: scale(1.1);
+  }
+
+  .social {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+  }
+
+  .social li{
+    margin-right: 10px;
+   font-size: 40px;
+  }
+
+  .contact h2 {
+    background-color: brown;
+    padding-top: 5px;
+    color: #fff;
+  }
+
+
+  .contact-me li {
+    list-style-type: none;
   }

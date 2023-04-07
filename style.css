@@ -1,218 +1,209 @@
 *,
 h1,
-h2, h3, h4, h5, h6, body {
-    font-family: 'Barlow', sans-serif;
-  }
-
-
-.con-nav{
-    background-color: #333;
-    padding-top: 0;
-    margin-top: 0;
+h2,
+h3,
+h4,
+h5,
+h6,
+body {
+  font-family: "Barlow", sans-serif;
 }
 
+.con-nav {
+  background-color: #333;
+  padding-top: 0;
+  margin-top: 0;
+}
 
 .form-control {
-    flex: 1; /* Make the placeholder take up remaining space within the container */
-    height: 40px; /* Set the height of the placeholder */
-    padding: 10px; /* Add padding to the placeholder for spacing */
+  flex: 1; /* Make the placeholder take up remaining space within the container */
+  height: 40px; /* Set the height of the placeholder */
+  padding: 10px; /* Add padding to the placeholder for spacing */
 }
 
 .btn {
-    height: 40px; /* Set the height of the button to match the placeholder */
-    margin-left: 10px; /* Add margin to the left of the button for spacing */
+  height: 40px; /* Set the height of the button to match the placeholder */
+  margin-left: 10px; /* Add margin to the left of the button for spacing */
 }
 
-
 .hero {
-    position: relative;
-    overflow: hidden;
-    justify-content: center;
-    text-align: center;
-  }
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  text-align: center;
+}
 
-  .wave-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    height: 90%;
-  }
-  
-  .hero-image {
-    position: relative;
-    z-index: 2;
-  }
+.wave-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 90%;
+}
 
-  .hero-image h1 {
-    color: #fff;
-  }
-  .hero-image p, h2{
-    text-align: center;
-    justify-content: center;
-    color: #333;
-    margin: 0 auto;
-  }
+.hero-image {
+  position: relative;
+  z-index: 2;
+}
 
-  .navbar {
-    /* Navbar styles here */
-    position: sticky;
-    top: 0; /* Adjust as needed */
-    z-index: 100; /* Adjust as needed */
-    background-color: #f2f2f2; /* Example background color */
-    margin-top: 0;
-    padding-top: 0;
-  }
-  
+.hero-image h1 {
+  color: #fff;
+}
+.hero-image p,
+h2 {
+  text-align: center;
+  justify-content: center;
+  color: #333;
+  margin: 0 auto;
+}
 
+.navbar {
+  /* Navbar styles here */
+  position: sticky;
+  top: 0; /* Adjust as needed */
+  z-index: 100; /* Adjust as needed */
+  background-color: #f2f2f2; /* Example background color */
+  margin-top: 0;
+  padding-top: 0;
+}
 
+.nav-link {
+  color: #0099ff;
+}
 
-  .nav-link {
-    color: #0099ff;
-  }
+.hero-image--profile {
+  width: 100%;
+  border-radius: 10%;
+}
 
- 
-  .hero-image--profile {
-    width: 100%;
-    border-radius: 10%;
-  }
+.hero-image--profile {
+  transform: rotate(0deg);
+  transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
 
-  .hero-image--profile {
-    transform: rotate(0deg);
-    transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .hero-image--profile:hover {
-    /* Apply a 45 degree clockwise rotation on hover */
-    transform: rotate(45deg);
-  }
-  
+.hero-image--profile:hover {
+  /* Apply a 45 degree clockwise rotation on hover */
+  transform: rotate(45deg);
+}
+
 /* navbar-brandlogo */
 
-  .navbar-brand:hover img{
-    /* Set initial rotation angle to 0 degrees */
-    transform: rotate(0deg);
-    /* Add transition for smooth animation */
-    transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    background-color: brown;
-  }
-  
-  .navbar-brand:hover {
-    /* Apply a 45 degree clockwise rotation on hover */
-    transform: rotate(90deg);
-  }
-  
+.navbar-brand:hover img {
+  /* Set initial rotation angle to 0 degrees */
+  transform: rotate(0deg);
+  /* Add transition for smooth animation */
+  transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  background-color: brown;
+}
 
-  @media (max-width: 768px) {
-   .hero-image--profile {
+.navbar-brand:hover {
+  /* Apply a 45 degree clockwise rotation on hover */
+  transform: rotate(90deg);
+}
+
+@media (max-width: 768px) {
+  .hero-image--profile {
     width: 50%;
     position: relative;
     margin-top: 5%;
     justify-content: center;
     text-align: center;
     background-color: brown;
-    }
   }
+}
 
-  .navbar-brand img{
-    width: 40px;
-    margin-top: 0;
-    padding-top: 0;
+.navbar-brand img {
+  width: 40px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.navbar:hover .nav-link:hover {
+  background-color: brown; /* Set the desired background color on hover */
+  border-radius: 50%; /* Add any additional styles as needed */
+  color: #fff; /* Set the desired text color on hover */
+}
+
+.navbar:hover .nav-link {
+  color: #fff;
+}
+
+.navbar-brand:hover img {
+  background-color: brown;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .navbar:hover .nav-link {
+    color: #fff;
   }
- 
-  .navbar:hover .nav-link:hover {
-    background-color: brown; /* Set the desired background color on hover */
-    border-radius: 50%; /* Add any additional styles as needed */
-    color: #fff; /* Set the desired text color on hover */
-  }
-
-
-
-  .navbar:hover .nav-link{
+  .navbar:hover .nav-link active {
     color: #fff;
   }
 
-  .navbar-brand:hover img{
+  .navbar-brand:hover img {
     background-color: brown;
     border-radius: 50%;
   }
- 
 
-  @media (max-width: 768px) {
-    .navbar:hover .nav-link{
-        color: #fff;
-      }
-      .navbar:hover .nav-link active{
-        color: #fff;
-      }
-    
-      .navbar-brand:hover img{
-        background-color: brown;
-        border-radius: 50%;
-      }
-
-      .nav-link {
-        white-space: nowrap;
-      }
-      .navbar {
-        width: 100%;
-        overflow-x: hidden;
-        white-space: nowrap;
-        overflow: hidden;
-        display: flex;
-        flex-wrap: wrap;
-      }
-    
-      .navbar:hover .nav-link:hover {
-        background-color: brown;
-        color: #fff;
-        border-radius: 1px;
-      }   
+  .nav-link {
+    white-space: nowrap;
   }
-
-  .properties h2{
-    margin-bottom: 5px;
-    color: #333;
-  }
-  .properties img {
-    margin: 0 auto;
-    padding: 0 auto;
-    justify-content: center;
-  }
-
-  .house:hover{
-    transition: transform 0.3s ease-in-out;
-    transform: scale(1.1);
-  }
-
-  .social {
+  .navbar {
+    width: 100%;
+    overflow-x: hidden;
+    white-space: nowrap;
+    overflow: hidden;
     display: flex;
-    list-style-type: none;
-    justify-content: center;
+    flex-wrap: wrap;
   }
 
-  .social li{
-    margin-right: 10px;
-    font-size: 20px;
+  .navbar:hover .nav-link:hover {
+    background-color: brown;
+    color: #fff;
+    border-radius: 1px;
   }
+}
 
+.properties h2 {
+  margin-bottom: 5px;
+  color: #333;
+}
+.properties img {
+  margin: 0 auto;
+  padding: 0 auto;
+  justify-content: center;
+}
 
+.house:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
+}
 
+.social {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
 
-  .contact-me li {
-    list-style-type: none;
-  }
+.social li {
+  margin-right: 10px;
+  font-size: 20px;
+}
 
- 
-.soc:hover, .soc:hover {
+.contact-me li {
+  list-style-type: none;
+}
+
+.soc:hover,
+.soc:hover {
   transition: transform 0.3s ease-in-out;
   transform: scale(1.1);
   color: #333;
-
 }
 
-.amen img{
+.amen img {
   width: 100%;
   display: flex;
   padding: 0 auto;
@@ -234,7 +225,7 @@ h2, h3, h4, h5, h6, body {
   align-items: center;
 }
 
-.units ul{
+.units ul {
   list-style-type: none;
 }
 .carousel-caption p {
@@ -248,7 +239,8 @@ h2, h3, h4, h5, h6, body {
   }
 }
 
-.table tr, th{
+.table tr,
+th {
   justify-content: center;
   text-align: center;
   display: flex;
@@ -270,16 +262,15 @@ td:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
- 
+
 @media (max-width: 768px) {
   .intro-video {
     height: 200px;
   }
 }
 
-
 @media (max-width: 768px) {
-  .olivarez-yt  {
+  .olivarez-yt {
     height: 200px;
   }
 
@@ -288,10 +279,9 @@ td:hover {
     width: 100%;
   }
 }
-
 
 @media (min-width: 1200px) {
-  .olivarez-yt  {
+  .olivarez-yt {
     height: 200px;
     padding-bottom: 10px;
     margin-bottom: 15px;
@@ -305,11 +295,9 @@ td:hover {
   }
 }
 
-
- /* Center the modal on mobile view */
- @media (max-width: 768px) {
+/* Center the modal on mobile view */
+@media (max-width: 768px) {
   .modal-dialog {
     margin: 0 auto;
   }
 }
-

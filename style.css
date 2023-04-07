@@ -300,3 +300,9 @@ td:hover {
     margin: 0 auto;
   }
 }
+
+
+/*olivarez*/
+.more-units li{
+  list-style-type: none;
+}

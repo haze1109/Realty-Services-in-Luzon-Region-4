@@ -301,6 +301,25 @@ td:hover {
   }
 }
 
+/*footer*/
+.footer li{
+  list-style-type: none;
+  justify-content: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  margin: 0 auto;
+}
+
+.footer-container {
+  background-color: #333;
+}
+
+.footer a {
+ text-decoration: none;
+}
+
 
 /*olivarez*/
 .more-units li{

@@ -364,3 +364,21 @@ td:hover {
 }
 
 
+
+/*idesia cabuyao*/
+.hero-image_idesia {
+  position: relative;
+}
+
+.hero_idesia {
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  text-align: center;
+
+}
+td:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transform: scale(1.1);
+}

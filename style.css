@@ -118,7 +118,7 @@ h2 {
 }
 
 .navbar:hover .nav-link:hover {
-  background-color: brown; 
+  background-color: green; 
   border-radius: 50%;
   color: #fff; 
 }

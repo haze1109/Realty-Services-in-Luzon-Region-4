@@ -169,15 +169,10 @@ h2 {
   color: #333;
 }
 .properties img {
-  margin: 0 auto;
-  padding: 0 auto;
+  margin: 5px 5px;
+  padding: 5px 5px;
   justify-content: center;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-}
-
-.house:hover {
-  transition: transform 0.3s ease-in-out;
-  /* transform: scale(1.1); */
 }
 
 .social {

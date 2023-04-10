@@ -12,7 +12,7 @@ window.addEventListener('touchstart', function(event) {
       var touchDiffY = touchEndY - touchStartY;
   
       // Check if the touch gesture is a swipe down
-      if (touchDiffY > 200) { // You can adjust the threshold as needed
+      if (touchDiffY > 300) { // You can adjust the threshold as needed
         // Perform a page refresh
         location.reload();
       }

@@ -29,6 +29,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
   </head>
   <body>
     <!--nav-->
@@ -74,15 +75,14 @@
               <a class="nav-link" href="./testimonials.html">TESTIMONIALS</a>
             </li>
           </ul>
-          <form class="d-flex my-lg-1 py-lg-1" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-info" type="submit">Search</button>
-          </form>
+          <div class="form-container">
+            <form class="form">
+                <input id="search" type="text" class="input" placeholder="search..."/>
+                <button id="clear" class="clear-results">clear</button>
+            </form>
+          </div>
+  
+          
         </div>
       </div>
     </nav>
@@ -427,6 +427,7 @@
           <li>© Copyright 2023|All Rights Reserved</li>
         </div>
       </section>
+      
     </div>
   </body>
 </html>

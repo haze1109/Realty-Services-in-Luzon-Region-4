@@ -374,11 +374,22 @@ td:hover {
   position: relative;
   overflow: hidden;
   justify-content: center;
-  text-align: center;
-
+  text-align: center
 }
 td:hover {
   background-color: #f0f0f0;
   cursor: pointer;
   transform: scale(1.1);
+}
+.ideacab_amenities .cabuyao:hover{
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+.sora_inner_caro img{
+  max-width: 320px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }

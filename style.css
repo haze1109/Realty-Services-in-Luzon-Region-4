@@ -353,6 +353,12 @@ td:hover {
 .talk_to_me li{
   list-style-type: none;
 } 
+.talk_to_me a{
+  list-style-type: none;
+  text-decoration: none;
+  color:#333;
+} 
+
 
 
 /* properties card*/
@@ -393,4 +399,10 @@ td:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+.idesia_ul li{
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 auto;
 }

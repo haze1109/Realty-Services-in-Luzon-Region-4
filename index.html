@@ -29,7 +29,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="index.js" defer></script>
   </head>
   <body>
     <!--nav-->
@@ -81,8 +80,6 @@
                 <button id="clear" class="clear-results">clear</button>
             </form>
           </div>
-  
-          
         </div>
       </div>
     </nav>
@@ -113,7 +110,8 @@
           ></iframe>
         </div>
       </section>
-      <hr />
+
+      <hr>
       <p
         class="justify-content-center pt-5 mt-5 pt-lg-1 mt-lg-1 mb-0 pb-0 text-center"
       >
@@ -121,6 +119,57 @@
         video Follow & subscribe their Youtube channel for more amazing
         house tour.</small>
       </p>
+
+<!--free consultation-->
+<section class="talk_to_me text-center bg-info-subtle pt-0 mt-0">
+  <div class="col-lg-12">
+      <p><b>Free Consultation</b></p>
+      <li>Charlene Marasigan</li>
+      <li><i class="fa-solid fa-location-dot"></i> Cabuyao, Laguna</li>
+      <li><i class="fa-solid fa-phone"></i> +63 955 312 7212</li>
+      <li>
+        <a href="https://mail.google.com/" target="_blank"><i class="fa-solid fa-envelope"></i> crlnmarasigan@gmail.com
+        </li></a>
+      <a  href="https://www.facebook.com/cha.marasigan.98?mibextid=ZbWKwL"
+      target="_blank"
+      ><li><i class="fa-brands fa-facebook"></i>https://www.facebook.com/cha.marasigan.98?mibextid=ZbWKwL</li></a>
+    </ul>
+  </div>
+</section>
+<!-- Button for modal -->
+<div class="col-lg-12 text-center pb-2 pt-lg-1 mt-lg-1 bg-body-secondary">
+  Shedule your Tripping now!
+  <button type="button" class="btn btn-primary mt-lg-1 mt-2" id="showFormButton5">
+    Click for Tripping
+  </button>
+</div>
+
+<!-- Google Form container -->
+<div class="modal" tabindex="-1" role="dialog" id="googleFormContainer5" style="display: none">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Google Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSdCpNug1hRlT1IosCCClTEpapCPdaVn81Ve8IZfU7OI9TEqvA/viewform?embedded=true"
+          id="myForm5"
+          width="100%"
+          height="400px;"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+        >Loading…</iframe>
+        <!-- Adjust the height as needed -->
+      </div>
+      <div class="modal-footer text-center">
+        We prioritize your security above all else
+      </div>
+    </div>
+  </div>
+</div>
       <!--properties card-->
     <section class="card-logo text-center pb-2 pt-2">
       <h2 class="pt-2 mt-2 pb-1"><b>PROPERTIES</b></h2>
@@ -427,6 +476,7 @@
           <li>© Copyright 2023|All Rights Reserved</li>
         </div>
       </section>
+      <script src="./index_modal.js"></script>
       <script src="./refresh.js"></script>
     </div>
   </body>

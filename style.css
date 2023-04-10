@@ -388,8 +388,9 @@ td:hover {
 }
 
 .sora_inner_caro img{
-  max-width: 320px;
+  max-width: 300px;
   width: 100%;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }

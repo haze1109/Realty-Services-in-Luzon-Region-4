@@ -436,3 +436,16 @@ form input:disabled {
     width: 100%;
   }
 }
+
+.intro_oli_banner img{
+  width: 100%;
+  height: 50%;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+.intro_edi_banner img{
+  width: 100%;
+  height: 50%;
+  padding: 0 auto;
+  margin: 0 auto;
+}

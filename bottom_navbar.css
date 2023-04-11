@@ -68,3 +68,9 @@ display: none; /* hide the bottom navbar in desktop view */
     justify-content: center;
     align-items: center;
   }
+
+  .hero-banner-app {
+    border-radius: 3%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    padding-top: 5px;
+  }

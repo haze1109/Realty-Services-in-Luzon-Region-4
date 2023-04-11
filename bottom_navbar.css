@@ -50,3 +50,7 @@ display: none; /* hide the bottom navbar in desktop view */
     margin-left: 5px;
     margin-top: 10px;
   }
+
+  .logo {
+    max-width: 80%;
+  }

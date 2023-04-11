@@ -1,0 +1,52 @@
+
+body {
+margin: 0;
+padding: 0;
+height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+.bottom-navbar {
+background-color: #fff;
+color: #333;
+padding: 20px;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: center;
+}
+
+nav li {
+margin: 0 10px;
+}
+
+nav a {
+color: #333;
+text-decoration: none;
+}
+
+@media (min-width: 768px) {
+/* Styles for desktop view */
+.bottom-navbar {
+display: none; /* hide the bottom navbar in desktop view */
+}
+}
+
+.box-shape {
+    width: 220px;
+    height: 80px;
+    background-color: #f8f9fa; 
+    border: 1px solid #000; 
+    border-radius: 5%; 
+    margin-left: 5px;
+    margin-top: 10px;
+  }

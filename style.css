@@ -421,6 +421,9 @@ form input:disabled {
   color: #999; /* Change to desired text color for disabled form field */
 }
 
+/* .video_navigate video {
+  height: 500px; 
+} */
 
 @media (max-width: 767px) {
   .intro_axi_banner img{

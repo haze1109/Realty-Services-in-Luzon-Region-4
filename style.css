@@ -37,9 +37,6 @@ body {
   font-size: 30px;
   font-weight: 900;
 }
-.hero-image {
-  position: relative;
-}
 
 .hero-image h1 {
   color: #fff;
@@ -422,4 +419,17 @@ td:hover {
 form input:disabled {
   background-color: #f2f2f2; /* Change to desired disabled form field color */
   color: #999; /* Change to desired text color for disabled form field */
+}
+
+
+@media (max-width: 767px) {
+  .intro_axi_banner img{
+      width: 100%;
+      padding: 0 auto;
+      margin: 0 auto;
+  }
+
+  .axi_banner img{
+    width: 100%;
+  }
 }

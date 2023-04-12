@@ -30,11 +30,31 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <h1 class="text-center pt-1 mt-1"><b>PROPERTIES</b> <br> Click Icon for More</h1>
+  
+ <!-- Create a container div for the background image -->
+<div class="background-container">
+  <!-- Set the background image using CSS -->
+  <div class="background-image" style="background-image: url('img/familybg-transformed.jpeg');"></div>
+  <!-- Place the buttons inside the container div -->
+  <div class="buttons-container">
+    <!-- <div class="col-12 text-center">
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-light">Light</button>
+      <button type="button" class="btn btn-dark">Dark</button>
+      <button type="button" class="btn btn-link">Link</button>
+    </div> -->
+  </div>
+</div>
+  <body class="bg-body-secondary">
+    <h1 class="text-center pt-1 mt-1"><b>PROPERTIES</b></h1>
 
     <div class="container">
-      <div class="row">
+      <div class="properties-box row">
         <div class="col-12 d-flex justify-content-between">
           <div class="box-shape">
             <a href="./olivarez.html"
@@ -57,80 +77,6 @@
                 alt=""
             /></a>
           </div>
-          <div class="box-shape">
-            <a href="./demeter_land.html"
-              ><img
-                src="img/demeterland-removebg-preview.png"
-                class="logo img-fluid"
-                alt=""
-            /></a>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 d-flex justify-content-between">
-          <div class="box-shape">
-            <a href="./"
-              ><img src="img/" class="logo img-fluid" alt=""
-            /></a>
-          </div>
-          <div class="box-shape">
-            <a href="./"
-              ><img
-                src="img/"
-                class="logo img-fluid"
-                alt=""
-            /></a>
-          </div>
-          <div class="box-shape">
-            <a href="./"
-              ><img
-                src="img/"
-                class="logo img-fluid"
-                alt=""
-            /></a>
-          </div>
-          <div class="box-shape">
-            <a href="./"
-              ><img
-                src="img/"
-                class="logo img-fluid"
-                alt=""
-            /></a>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 d-flex justify-content-between">
-          <div class="box-shape">
-            <a href="./"
-              ><img src="img/" class="logo img-fluid" alt=""
-            /></a>
-          </div>
-          <div class="box-shape">
-            <a href="./"
-              ><img
-                src="img/"
-                class="logo img-fluid"
-                alt=""
-            /></a>
-          </div>
-          <div class="box-shape">
-            <a href="./"
-              ><img
-                src="img/"
-                class="logo img-fluid"
-                alt=""
-            /></a>
-          </div>
-          <div class="box-shape">
-            <a href="./"
-              ><img
-                src="img/"
-                class="logo img-fluid"
-                alt=""
-            /></a>
-          </div>
         </div>
       </div>
     </div>
@@ -138,9 +84,9 @@
     <footer class="bottom-navbar">
       <nav>
         <ul>
-          <li><a href="./app.html"><b>HOME</b> </a></li>
-          <li><a href="#properties"><b> PROPERTIES</b></a></li>
-          <li><a href="#inquiry"><b>INQUIRY</b> </a></li>
+          <li><a href="./app.html"><button type="button" class="btn btn-primary"><b>HOME</b></button> </a></li>
+          <li><a href="./app_properties.html"><button type="button" class="btn btn-primary"><b> PROPERTIES</b></button></a></li>
+          <li><a href="./app_inquiry.html"><button type="button" class="btn btn-primary"> <b>INQUIRY</b></button> </a></li>
         </ul>
       </nav>
     </footer>

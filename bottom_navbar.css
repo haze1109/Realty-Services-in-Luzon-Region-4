@@ -53,15 +53,22 @@ display: none; /* hide the bottom navbar in desktop view */
 }
 
 .box-shape {
-    width: 220px;
-    height: 80px;
-    background-color: rgb(236, 230, 230); 
+    width: 50%;
+    height:80%;
+    background-color: #fff; 
     border: 1px solid #000; 
     border-radius: 10%; 
     margin-left: 5px;
     margin-top: 10px;
     display: flex;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+  }
+
+  .box-shape img{
+    width: 100%;
+    height: 90%;
+    
   }
 
   .logo {
@@ -73,28 +80,43 @@ display: none; /* hide the bottom navbar in desktop view */
   .hero-banner-app {
    
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
-    padding-top: 5px;
-    border-top-left-radius: 30px; 
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 0; 
-    border-bottom-left-radius: 0;
+    background-color: #fff;
   }
 
-  .box-shape-app {
+  .background-container {
+    position: relative;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100px;
-    background-color: #fff;
-    margin-top: 5px;
-    border-radius: 5%;
-    margin-right: 50px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    height: 100vh; 
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
   }
-  .box-shape-app1 {
-    width: 100vw;
-    height: 50vh;
-    background-color: #fff;
-    margin-top: 5px;
-    border-radius: 5%;
-    margin-right: 50px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  
+  .buttons-container {
+    position: relative;
+    z-index: 1;
   }
+
+  .contact-me li{
+    list-style-type: none;
+  }
+
+  .inquiry-box {
+    width: 100%;
+    border-radius: 5%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    .properties-box {
+      width: 100%;
+      height: 100%;
+      border-radius: 5%;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+      }
+  

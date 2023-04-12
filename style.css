@@ -9,6 +9,10 @@ body {
   font-family: 'Barlow', sans-serif;
 }
 
+.logo_home {
+  background-color: gray;
+  border-radius: 50%;
+}
 .con-nav {
   background-color: #333;
   padding-top: 0;
@@ -26,6 +30,9 @@ body {
   margin-left: 10px; /* Add margin to the left of the button for spacing */
 }
 
+.hero-image {
+  height: 50%;
+}
 .hero {
   position: relative;
   overflow: hidden;
@@ -36,17 +43,20 @@ body {
 .hero h1 {
   font-size: 30px;
   font-weight: 900;
+  color: black; 
+  z-index: 2; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0;
 }
-
-.hero-image h1 {
-  color: #fff;
-}
-.hero-image p,
-h2 {
+.hero-image {
   text-align: center;
   justify-content: center;
   color: #333;
   margin: 0 auto;
+  padding-bottom: 0 auto;
 }
 
 .navbar {
@@ -183,6 +193,7 @@ h2 {
 
 .contact-me li {
   list-style-type: none;
+  color: #333;
 }
 
 .soc:hover,
@@ -459,4 +470,32 @@ form input:disabled {
   height: 50%;
   padding: 0 auto;
   margin: 0 auto;
+}
+.intro-video {
+  width: min ( 100% - 1em, 69em);
+  margin-inline: auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.card_body {
+  width: min ( 100% - 1em, 69em);
+  margin-inline: auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* CSS for desktop view */
+@media (min-width: 992px) {
+  /* Add animation or movement styles here for desktop view */
+  .card:hover {
+    transform: translateX(-50px); /* Example: move 10 pixels to the left on hover */
+    transition: transform 0.3s ease-in-out; /* Example: add transition effect for smooth animation */
+  }
+}
+
+/* CSS for mobile view */
+@media (max-width: 991px) {
+  /* Add centering styles here for mobile view */
+  .card {
+    margin: 0 auto; /* Example: center the card horizontally */
+  }
 }

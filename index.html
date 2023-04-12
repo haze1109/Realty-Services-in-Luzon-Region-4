@@ -43,6 +43,29 @@
   s0.parentNode.insertBefore(s1,s0);
   })();
   </script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCHQ5SOchAUXT5vvL3UemCKkw0Ayw6kTcw",
+      authDomain: "real-state-6f643.firebaseapp.com",
+      projectId: "real-state-6f643",
+      storageBucket: "real-state-6f643.appspot.com",
+      messagingSenderId: "33699957484",
+      appId: "1:33699957484:web:a59fe23af3023ed1c5f3c9",
+      measurementId: "G-7K3NKYP9FG"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
   <!--End of Tawk.to Script-->
     <!--nav-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary pt-0 mt-0 mb-0 pb-0">

@@ -499,3 +499,12 @@ form input:disabled {
     margin: 0 auto; /* Example: center the card horizontally */
   }
 }
+.gif img{
+  width: 100%;
+  justify-content: center;
+
+}
+
+.contact h2{
+  padding-left: 28px;
+}

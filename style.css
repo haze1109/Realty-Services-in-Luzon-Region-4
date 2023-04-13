@@ -536,3 +536,23 @@ form input:disabled {
 #searchResultsList li {
   margin-bottom: 10px;
 }
+.audio-container {
+  position: relative; /* Set to relative for positioning child elements */
+  width: 300px; /* Set width to desired size */
+  height: 200px; /* Set height to desired size */
+}
+
+.audio-file {
+  width: 100%; /* Set width to 100% to fill the container */
+  height: 100%; /* Set height to 100% to fill the container */
+  object-fit: cover; /* Use object-fit to control how the audio file image is displayed within the container */
+}
+
+.play-button {
+  position: absolute; /* Set to absolute for positioning over the audio file image */
+  bottom: 20px; /* Set to desired distance from the bottom of the container */
+  right: 20px; /* Set to desired distance from the right of the container */
+  width: 50px; /* Set width to desired size */
+  height: 50px; /* Set height to desired size */
+  opacity: 0.8; /* Set opacity for blending effect */
+}

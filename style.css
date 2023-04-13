@@ -502,3 +502,37 @@ form input:disabled {
 .play_button {
   width:20px;
 }
+
+/*seacrh form*/
+/* CSS code for styling the search form and search results */
+#searchForm {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#keywordInput {
+  flex: 1;
+  padding: 10px;
+}
+
+#searchForm button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#searchResultsContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#searchResultsList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#searchResultsList li {
+  margin-bottom: 10px;
+}

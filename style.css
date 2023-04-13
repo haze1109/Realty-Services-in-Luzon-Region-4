@@ -547,12 +547,29 @@ form input:disabled {
   height: 100%; /* Set height to 100% to fill the container */
   object-fit: cover; /* Use object-fit to control how the audio file image is displayed within the container */
 }
-
-.play-button {
-  position: absolute; /* Set to absolute for positioning over the audio file image */
-  bottom: 20px; /* Set to desired distance from the bottom of the container */
-  right: 20px; /* Set to desired distance from the right of the container */
-  width: 50px; /* Set width to desired size */
-  height: 50px; /* Set height to desired size */
-  opacity: 0.8; /* Set opacity for blending effect */
+.flex-container {
+  display: flex;
+  /* Add any desired flexbox properties */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
 }
+
+.flex-item {
+  flex-basis: 50%; /* Set flex basis to 50% for mobile view to create 2 columns */
+  /* Add any desired styles for the list items */
+}
+
+/* Media query for desktop view */
+@media (min-width: 769px) {
+  .flex-container {
+    display: block; /* Change display to block in desktop view */
+  }
+  
+  .flex-item {
+    flex-basis: calc(100% / 3); /* Set flex basis to 1/3 of the container width in desktop view */
+    /* Add any desired styles for the list items in desktop view */
+  }
+}
+

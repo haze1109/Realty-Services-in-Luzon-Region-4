@@ -409,12 +409,6 @@ td:hover {
 
 /* axeia*/
 
-.axi_youtube {
-  width: 100%;
-  text-align: center;
-  margin: 0 auto;
-  padding:0 auto;
-}
 .td-hover:hover {
   background-color: #777;
   cursor: pointer;
@@ -462,9 +456,6 @@ form input:disabled {
   margin: 0 auto;
 }
 
-.axi_banner img{
-  width: 100%;
-}
 .intro_axi_banner img{
   width: 100%;
   height: 50%;
@@ -508,3 +499,4 @@ form input:disabled {
 .contact h2{
   padding-left: 28px;
 }
+

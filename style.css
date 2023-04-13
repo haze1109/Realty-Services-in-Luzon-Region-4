@@ -499,4 +499,6 @@ form input:disabled {
 .contact h2{
   padding-left: 28px;
 }
-
+.play_button {
+  width:20px;
+}

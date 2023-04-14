@@ -573,3 +573,18 @@ form input:disabled {
   }
 }
 
+
+@media (min-width: 992px) {
+  .south_intro iframe{
+      width: 100%;
+  }
+
+  .phuket_intro {
+      width: 100vw;
+  }
+  .index_ul li, a{
+    color: #333;
+    font-size: 20px;
+  }
+}
+

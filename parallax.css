@@ -1,0 +1,9 @@
+.parallax-section {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .parallax-section {
+    height: 100vh; /* Set the height to 100% of the viewport height */
+  }
+  

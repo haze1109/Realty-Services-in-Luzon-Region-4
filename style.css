@@ -572,7 +572,12 @@ form input:disabled {
     /* Add any desired styles for the list items in desktop view */
   }
 }
-
+@media (max-width: 769px) {
+  .index_ul li, a{
+    color: #333;
+    font-size: 16px;
+  }
+}
 
 @media (min-width: 992px) {
   .south_intro iframe{

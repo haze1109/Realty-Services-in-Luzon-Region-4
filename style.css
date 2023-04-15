@@ -603,6 +603,9 @@ form input:disabled {
     margin: 0 auto;
     padding-top: 10px;
   }
+  .news-invite p, li{
+    list-style-type: none;
+  }
 }
 
 @media (min-width: 992px) {
@@ -651,6 +654,13 @@ form input:disabled {
 .client-div {
   justify-content: center;
   margin-left: 300px;
+}
+
+.news-invite p, li{
+  list-style-type: none;
+}
+.join_us  {
+  height: 600px;
 }
 }
 

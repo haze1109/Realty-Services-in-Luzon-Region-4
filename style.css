@@ -666,7 +666,7 @@ form input:disabled {
 /* CSS */
 /* Add styles for the dark mode button */
 .toggle-darkmode {
-  text-align: center;
+  text-align: center; /* Update to center the button */
 }
 
 #dark-mode-button {
@@ -678,10 +678,9 @@ form input:disabled {
   border-radius: 50%;
   width: 30px;
   height: 30px;
-  background-image: url('moon-icon.png'); /* Replace with the path to your moon icon image */
-  background-size: 60%; /* Adjust as needed to control the size of the moon icon */
-  background-position: center center; /* Adjust to center the moon icon both horizontally and vertically */
-  background-repeat: no-repeat;
+  display: flex; /* Add to enable flexbox */
+  justify-content: center; /* Add to center the icon horizontally */
+  align-items: center; /* Add to center the icon vertically */
 }
 
 /* Add styles for the active state of the dark mode button */
@@ -689,5 +688,3 @@ form input:disabled {
   background-color: #333;
   color: #f5f5f5;
 }
-
-

@@ -663,4 +663,31 @@ form input:disabled {
   height: 600px;
 }
 }
+/* CSS */
+/* Add styles for the dark mode button */
+.toggle-darkmode {
+  text-align: center;
+}
+
+#dark-mode-button {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-image: url('moon-icon.png'); /* Replace with the path to your moon icon image */
+  background-size: 60%; /* Adjust as needed to control the size of the moon icon */
+  background-position: center center; /* Adjust to center the moon icon both horizontally and vertically */
+  background-repeat: no-repeat;
+}
+
+/* Add styles for the active state of the dark mode button */
+#dark-mode-button.active {
+  background-color: #333;
+  color: #f5f5f5;
+}
+
 

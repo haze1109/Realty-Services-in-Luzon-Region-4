@@ -29,14 +29,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
-  
-    <script src="./js/firebase.js" type="module"></script>
-    <script src="./js/crud.js" type="module"></script>
-
+    <!-- Include the dark mode CSS file -->
+    <link rel="stylesheet" href="dark-mode.css">
   </head>
-  <body>
+  <body class="dark-mode">
     <!--Start of Tawk.to Script-->
 <script type="text/javascript">
   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -111,8 +107,6 @@
     </nav>
     <!--Hero-->
     <div class="container-fluid">
-      <!-- <div style="padding-top:50.000%; padding-bottom: 0; position:relative;"><iframe src="https://gifer.com/embed/OFAF" width="100%" height="100%" alt="buildings" style='position:absolute;top:0;left:0;' frameBorder="0" allowFullScreen></iframe>
-      </div> -->
       <div class="col-lg-12 col-12 text-center pt-lg-0 mt-lg-0 pb-lg-0 mb-lg-0 pt-0 mt-0 pb-0 mb-0">
         <div class="col-lg-8 text-center offset-lg-2">
           <img src="img/OFAF.gif" class="img-fluid" style="width: 50%;" alt="">
@@ -122,6 +116,15 @@
      
       <h2 class="bg-info text-center"><b>Find Your Perfect Home</b></h2>
       <hr>
+      <!-- <div class="toggle-darkmode">
+        <button style="color: #333;" id="dark-mode-button">Dark Mode</button>
+      </div> -->
+
+      <div class="toggle-darkmode">
+        <button id="dark-mode-button"><i class="fas fa-moon"></i></button>
+      </div>
+      
+      
       <div class="row">
         <div class="col-lg-6 col-12 mx-auto"><img src="img/Phuket-Mansion-Facade.jpg" class="img-fluid" alt=""></div>
         
@@ -149,7 +152,7 @@
                       <a
                         href="https://www.facebook.com/cha.marasigan.98?mibextid=ZbWKwL"
                         target="_blank"
-                        ><i class="soc fa-brands fa-facebook" style="color:#333;"></i
+                        ><i class="soc fa-brands fa-facebook"></i
                       ></a>
                       https://www.facebook.com/cha.marasigan</li>
                 </ul>
@@ -158,15 +161,13 @@
           </section>
         </div>
       </div>
-      
-        <!-- Button for modal -->
-        <div class="col-lg-12 text-center pb-2 pt-lg-1 mt-lg-1 bg-body-secondary">
-          Schedule your Tripping now!
+        <div class="col-lg-12 text-center pb-2 pt-lg-1 mt-lg-1 bg-info">
+          <p class="d-inline">Schedule your Tripping now!</p> 
           <button type="button" class="btn btn-primary mt-lg-1 mt-2" id="showFormButton5">
             Click Here
           </button>
         </div>
-
+      
         <!-- Google Form container -->
         <div class="modal" tabindex="-1" role="dialog" id="googleFormContainer5" style="display: none">
           <div class="modal-dialog" role="document">
@@ -185,6 +186,7 @@
             </div>
           </div>
         </div>
+
         <div class="row">
           <div class="col-lg-4 justify-content-center">
             <section> 
@@ -259,6 +261,10 @@
           </section>
             <script src="./js/index_modal.js"></script>
             <script src="./js/refresh.js"></script>
+            <script src="./js/darkmode.js"></script>
+            <script src="./js/darkmode-button.js"></script>
+            <!-- <script src="./js/normal-mode.js"></script> -->
+
             <!-- <script src="./music.js"></script> -->
             <!-- <script src="./audio-conflict-handler.js"></script> -->
       

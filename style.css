@@ -468,6 +468,7 @@ form input:disabled {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
 }
 
+
 .card_body {
   width: min ( 100% - 1em, 69em);
   margin-inline: auto;
@@ -480,6 +481,7 @@ form input:disabled {
   .card:hover {
     transform: translateX(-50px); /* Example: move 10 pixels to the left on hover */
     transition: transform 0.3s ease-in-out; /* Example: add transition effect for smooth animation */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -589,6 +591,18 @@ form input:disabled {
       padding: 0 auto;
       padding-top: 5px;
   }
+  .card-img-top-client {
+    border-radius: 50%;
+    width: 200px;;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 auto;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -619,6 +633,24 @@ form input:disabled {
     margin-left: 10px;
     padding-left: 0;
     padding-top: 5px;
+}
+
+.card-img-top-client {
+  border-radius: 50%;
+  width: 200px;;
+  height: 200px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 auto;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.client-div {
+  justify-content: center;
+  margin-left: 300px;
 }
 }
 

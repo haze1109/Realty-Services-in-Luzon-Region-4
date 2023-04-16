@@ -14,7 +14,6 @@ body {
   border-radius: 50%;
 }
 .con-nav {
-  background-color: #333;
   padding-top: 0;
   margin-top: 0;
 }
@@ -123,7 +122,8 @@ body {
 }
 
 .navbar:hover .nav-link:hover {
-  background-color: rgb(13, 128, 204); 
+  /* background-color: rgba(201, 211, 233, 0.849);  */
+  background-color: #333;
   border-radius: 5%;
   color: #fff; 
 }

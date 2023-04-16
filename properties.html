@@ -29,6 +29,7 @@
       href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;1,100&family=Barlow:ital,wght@0,300;0,400;1,200&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="dark-mode.css">
   </head>
   <body>
     <script type="text/javascript">
@@ -42,6 +43,9 @@
       s0.parentNode.insertBefore(s1,s0);
       })();
       </script>
+
+
+     
     <!--nav-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary pt-0 mt-0 mb-0 pb-0">
       <div class="con-nav container-fluid pt-1 pb-0 mb-0">
@@ -89,14 +93,23 @@
         </div>
       </div>
     </nav>
+
+
+
     <!--properties card-->
     <div class="card_body">
       <section class="card-logo text-center pb-2 pt-2">
         <h2 class="pt-2 mt-2 pb-1"><b>PROPERTIES</b></h2>
         <h3>Click Tour for more Information</h3>
+
+
+        <!--darkmode button-->
+        <div class="toggle-darkmode pt-lg-0 mt-lg-0 pt-0 mt-0 col-lg-2 col-12 mx-auto text-start  d-inline-block">
+          <button id="dark-mode-button"><i class="fas fa-moon"></i></button>
+        </div>
         <div class="row">
           <div class="col-lg-2">
-            <div class="card" style="width: 18rem">
+            <div class="card" style="width: 18rem; height: 24.5rem;">
               <img src="img/olivareshomes.webp" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">OLIVAREZ HOMES</h5>
@@ -344,5 +357,6 @@
           
         </section>
     </div>
+    <script src="./js/dark-mode.js"></script>
   </body>
 </html>

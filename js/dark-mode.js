@@ -1,4 +1,5 @@
-// script.js
+// dark-mode.js
+
 // Add event listener to toggle dark mode on click
 $("#dark-mode-button").on("click", function() {
     $(this).toggleClass("active");

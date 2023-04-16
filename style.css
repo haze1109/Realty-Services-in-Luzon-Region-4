@@ -59,12 +59,16 @@ body {
   padding-bottom: 0 auto;
 }
 
+.navbar, .con-nav{
+  background-color: #333;
+}
+
 .navbar {
   /* Navbar styles here */
   position: sticky;
   top: 0; /* Adjust as needed */
   z-index: 100; /* Adjust as needed */
-  background-color: #f2f2f2; /* Example background color */
+  background-color: #f2f2f2; 
   margin-top: 0;
   padding-top: 0;
 }
@@ -560,13 +564,12 @@ form input:disabled {
 
 .flex-item {
   flex-basis: 50%; /* Set flex basis to 50% for mobile view to create 2 columns */
-  /* Add any desired styles for the list items */
+ 
 }
 
-/* Media query for desktop view */
 @media (min-width: 769px) {
   .flex-container {
-    display: block; /* Change display to block in desktop view */
+    display: block; 
   }
   
   .flex-item {
@@ -663,28 +666,40 @@ form input:disabled {
   height: 600px;
 }
 }
-/* CSS */
-/* Add styles for the dark mode button */
-.toggle-darkmode {
-  text-align: center; /* Update to center the button */
-}
 
+
+
+/*dark mode button */
 #dark-mode-button {
+ 
+  margin: 0;
+  padding: 0;
+  
+  
+  width: 30px;
+  height: 30px;
+
+  /* Update other styles as needed */
   background-color: #f5f5f5;
   color: #333;
-  padding: 10px;
   border: none;
   cursor: pointer;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  display: flex; /* Add to enable flexbox */
-  justify-content: center; /* Add to center the icon horizontally */
-  align-items: center; /* Add to center the icon vertically */
+  justify-content: center;
+  align-items: center;
 }
 
-/* Add styles for the active state of the dark mode button */
+
 #dark-mode-button.active {
+  
   background-color: #333;
   color: #f5f5f5;
 }
+
+#dark-mode-button {
+  margin-top: 0;
+  margin-right: 10px;
+  padding-top: 0;
+}
+
+

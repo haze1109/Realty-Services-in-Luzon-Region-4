@@ -10,7 +10,7 @@ body {
 }
 
 .logo_home {
-  background-color: gray;
+  background-color: #1a1a1a;
   border-radius: 50%;
 }
 .con-nav {
@@ -58,6 +58,11 @@ body {
   padding-bottom: 0 auto;
 }
 
+
+
+#navbarNav {
+  background-color: #1a1a1a;
+}
 .navbar, .con-nav{
   background-color: #333;
 }
@@ -105,6 +110,10 @@ body {
   transform: rotate(90deg);
 }
 
+.con-nav .navbar-brand {
+  background-color: #1a1a1a;
+}
+
 @media (max-width: 768px) {
   .hero-image--profile {
     width: 50%;
@@ -119,11 +128,12 @@ body {
   width: 40px;
   margin-top: 0;
   padding-top: 0;
+ 
 }
 
 .navbar:hover .nav-link:hover {
   /* background-color: rgba(201, 211, 233, 0.849);  */
-  background-color: #333;
+  background-color: gray;
   border-radius: 5%;
   color: #fff; 
 }
@@ -135,6 +145,10 @@ body {
 .navbar-brand:hover img {
   background-color: #333;
   border-radius: 50%;
+}
+
+.footer .footer-container {
+  background-color: #1a1a1a;
 }
 
 @media (max-width: 768px) {
@@ -163,11 +177,15 @@ body {
   }
 
   .navbar:hover .nav-link:hover {
-    background-color: rgb(13, 128, 204);
+    background-color: gray;
     color: #fff;
     border-radius: 1px;
   }
-}
+
+  .con-nav {
+    background-color: #1a1a1a;
+  }
+
 
 .properties h2 {
   margin-bottom: 5px;
@@ -237,12 +255,14 @@ body {
   font-size: 16px;
   color: #000;
 }
-
-@media (max-width: 768px) {
-  .carousel-caption p {
-    color: #000;
-  }
+.footer .footer-container {
+  background-color: #1a1a1a;
 }
+.carousel-caption p {
+  color: #000;
+}
+}
+
 
 .table tr,
 th {
@@ -269,12 +289,10 @@ td:hover {
 }
 
 @media (max-width: 768px) {
+
   .intro-video {
     height: 200px;
   }
-}
-
-@media (max-width: 768px) {
   .olivarez-yt {
     height: 200px;
   }
@@ -285,7 +303,7 @@ td:hover {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .olivarez-yt {
     height: 200px;
     padding-bottom: 10px;
@@ -431,11 +449,8 @@ form input:disabled {
   color: #999; /* Change to desired text color for disabled form field */
 }
 
-/* .video_navigate video {
-  height: 500px; 
-} */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .intro_axi_banner img{
       width: 100%;
       padding: 0 auto;
@@ -567,7 +582,7 @@ form input:disabled {
  
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .flex-container {
     display: block; 
   }
@@ -577,7 +592,7 @@ form input:disabled {
     /* Add any desired styles for the list items in desktop view */
   }
 }
-@media (max-width: 769px) {
+@media (max-width: 768px) {
   .index_ul li, a{
     color: #333;
     font-size: 16px;

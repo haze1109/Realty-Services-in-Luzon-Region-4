@@ -9,10 +9,10 @@ body {
   font-family: 'Barlow', sans-serif;
 }
 
-.logo_home {
+/* .logo_home {
   background-color: #1a1a1a;
   border-radius: 50%;
-}
+} */
 .con-nav {
   padding-top: 0;
   margin-top: 0;
@@ -114,15 +114,8 @@ body {
   background-color: #1a1a1a;
 }
 
-@media (max-width: 768px) {
-  .hero-image--profile {
-    width: 50%;
-    position: relative;
-    margin-top: 5%;
-    justify-content: center;
-    text-align: center;
-  }
-}
+
+
 
 .navbar-brand img {
   width: 40px;
@@ -150,6 +143,18 @@ body {
 .footer .footer-container {
   background-color: #1a1a1a;
 }
+
+/* 
+@media (max-width: 768px) {
+  .hero-image--profile {
+    width: 50%;
+    position: relative;
+    margin-top: 5%;
+    justify-content: center;
+    text-align: center;
+  }
+} */
+
 
 @media (max-width: 768px) {
   .navbar:hover .nav-link {

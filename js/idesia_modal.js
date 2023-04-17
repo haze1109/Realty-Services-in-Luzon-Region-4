@@ -1,14 +1,14 @@
-// Show modal when button is clicked
+
 document.getElementById("showFormButton3").addEventListener("click", function () {
     document.getElementById("googleFormContainer3").style.display = "block";
   });
   
-  // Close modal when close button is clicked
+ 
   document.querySelector("#googleFormContainer3 .btn-close").addEventListener("click", function () {
     document.getElementById("googleFormContainer3").style.display = "none";
   });
   
-  // Close modal when clicked outside the modal
+ 
   document.addEventListener("click", function (event) {
     if (event.target === document.getElementById("googleFormContainer3")) {
       document.getElementById("googleFormContainer3").style.display = "none";

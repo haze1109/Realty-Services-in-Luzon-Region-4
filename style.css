@@ -256,16 +256,11 @@ body {
 .units ul {
   list-style-type: none;
 }
-.carousel-caption p {
-  font-size: 16px;
-  color: #000;
-}
+
 .footer .footer-container {
   background-color: #1a1a1a;
 }
-.carousel-caption p {
-  color: #000;
-}
+
 }
 
 
@@ -348,6 +343,11 @@ td:hover {
   .modal-dialog {
     margin: 0 auto;
   }
+
+  .available_units .units ul, li{
+    padding-top: 0;
+    margin-top: 0;
+  }
 }
 
 /*footer*/
@@ -386,7 +386,6 @@ td:hover {
 } 
 
 
-
 /* properties card*/
 .card-logo .card{
   justify-content: center;
@@ -394,8 +393,6 @@ td:hover {
   padding: 0 auto;
   width: 100%;
 }
-
-
 
 /*idesia cabuyao*/
 .hero-image_idesia {
@@ -420,17 +417,15 @@ td:hover {
 }
 
 .sora_inner_caro img{
-  max-width: 300px;
   width: 100%;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
-.idesia_ul li{
-  text-align: center;
-  justify-content: center;
-  margin: 0 auto;
-  padding: 0 auto;
+
+.carousel-caption p{
+  color:gray;
+  font-size: 25px;
 }
 
 
@@ -456,6 +451,13 @@ form input:disabled {
 
 
 @media (max-width: 768px) {
+
+  .carousel-caption p{
+    color:gray;
+    font-size: 18px;
+  }
+
+
   .intro_axi_banner img{
       width: 100%;
       padding: 0 auto;
@@ -691,15 +693,10 @@ form input:disabled {
 
 /*dark mode button */
 #dark-mode-button {
- 
   margin: 0;
   padding: 0;
-  
-  
   width: 30px;
   height: 30px;
-
-  /* Update other styles as needed */
   background-color: #f5f5f5;
   color: #333;
   border: none;

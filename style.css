@@ -98,6 +98,10 @@ body {
 
 /* navbar-brandlogo */
 
+
+.navbar-nav a {
+  color: #fff;
+}
 .navbar-brand:hover img {
   /* Set initial rotation angle to 0 degrees */
   transform: rotate(0deg);
@@ -144,16 +148,6 @@ body {
   background-color: #1a1a1a;
 }
 
-/* 
-@media (max-width: 768px) {
-  .hero-image--profile {
-    width: 50%;
-    position: relative;
-    margin-top: 5%;
-    justify-content: center;
-    text-align: center;
-  }
-} */
 
 
 @media (max-width: 768px) {
@@ -575,19 +569,6 @@ form input:disabled {
   height: 100%; /* Set height to 100% to fill the container */
   object-fit: cover; /* Use object-fit to control how the audio file image is displayed within the container */
 }
-.flex-container {
-  display: flex;
-  /* Add any desired flexbox properties */
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  flex-wrap: wrap;
-}
-
-.flex-item {
-  flex-basis: 50%; /* Set flex basis to 50% for mobile view to create 2 columns */
- 
-}
 
 @media (min-width: 768px) {
   .flex-container {
@@ -719,4 +700,74 @@ form input:disabled {
   padding-top: 0;
 }
 
+
+.table {
+  text-align: center;
+  justify-content: center;
+}
+
+@media (max-wdith: 768px) {
+.table th, td{
+  text-align: center;
+  justify-content: center;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+}
+
+.townhouse-img img{
+    height: 300px;
+    width: 100%;
+}
+
+.container{
+  width: 400px;
+  height: 200px;
+  position: relative;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blend-mode-example {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 36px;
+  padding: 20px;
+  mix-blend-mode: screen; /* Example blending mode */
+}
+
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.carousel-indicators button {
+  width: 10px; /* Adjust dot size */
+  height: 10px; /* Adjust dot size */
+  border-radius: 50%; /* Round shape */
+  background-color: #ccc;
+  margin: 0 5px; /* Adjust spacing between indicators */
+  border: none; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 0; /* Remove padding */
+}
+
+.carousel-indicators .active {
+  background-color: #000; /* Style for active indicator */
+}
+
+/* Add margin between indicators */
+.carousel-indicators button:not(:last-child) {
+  margin-right: 10px;
+}
 

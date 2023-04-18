@@ -13,6 +13,18 @@
   }
 
   .index_ul a {
-    color: rgba(10, 126, 161, 0.719);
+    color: #0dcaf0;
   }
-  
+  .index_ul li, h3 {
+    color: #333;
+  }
+
+  @media (max-width: 768px) {
+    .index_ul li, h3, i{
+        color: #10b9ecc9;
+      }
+
+      .index_ul a {
+        color: #0dcaf0;
+      }
+  }

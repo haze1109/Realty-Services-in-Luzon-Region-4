@@ -743,7 +743,6 @@ form input:disabled {
   mix-blend-mode: screen; /* Example blending mode */
 }
 
-
 .carousel-indicators {
   display: flex;
   justify-content: center;
@@ -770,4 +769,24 @@ form input:disabled {
 .carousel-indicators button:not(:last-child) {
   margin-right: 10px;
 }
+
+.bahay_ul {
+  position: relative;
+  z-index: 1; /* Set a lower z-index to be overlapped by the image section */
+  padding: 20px; /* Add padding to the ul list as needed */
+  background-image: url('img/pearlth.png'); /* Set the path to your GIF image */
+  background-size: cover; /* Scale the image to cover the entire ul list */
+  background-position: center center; /* Center the image horizontally and vertically */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 300px; }
+.bahay_ul-1 {
+  position: relative;
+  z-index: 1; /* Set a lower z-index to be overlapped by the image section */
+  padding: 20px; /* Add padding to the ul list as needed */
+  background-image: url('img/pearltownhouseunit.jpg'); /* Set the path to your GIF image */
+  background-size: cover; /* Scale the image to cover the entire ul list */
+  background-position: center center; /* Center the image horizontally and vertically */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 300px; }
+
 

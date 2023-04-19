@@ -9,24 +9,21 @@ body {
   font-family: 'Barlow', sans-serif;
 }
 
-/* .logo_home {
-  background-color: #1a1a1a;
-  border-radius: 50%;
-} */
+
 .con-nav {
   padding-top: 0;
   margin-top: 0;
 }
 
 .form-control {
-  flex: 1; /* Make the placeholder take up remaining space within the container */
-  height: 40px; /* Set the height of the placeholder */
-  padding: 10px; /* Add padding to the placeholder for spacing */
+  flex: 1; 
+  height: 40px; 
+  padding: 10px; 
 }
 
 .btn {
-  height: 40px; /* Set the height of the button to match the placeholder */
-  margin-left: 10px; /* Add margin to the left of the button for spacing */
+  height: 40px; 
+  margin-left: 10px; 
 }
 
 .hero-image {

@@ -19,6 +19,43 @@
     color: #333;
   }
 
+   .index_ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .index_ul li {
+    margin-top: 1rem;
+  }
+  .btn-primary:hover {
+    background-color: #2c3e50;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary:active {
+    background-color: #2c3e50;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+  
+
+   @media screen and (max-width: 767px) {
+    .index_ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1rem;
+    }
+    .index_ul li {
+      margin-top: 1rem;
+    }
+  }
+  
+
   @media (max-width: 768px) {
     .index_ul li, h3, i{
         color: #10b9ecc9;

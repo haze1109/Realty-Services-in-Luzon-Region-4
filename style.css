@@ -486,40 +486,69 @@ form input:disabled {
 }
 
 
-.card_body {
-  width: min ( 100% - 1em, 69em);
-  margin-inline: auto;
+/* card */
+
+
+.card:hover {
+  transform: translateY(-10px); /* Example: move 10 pixels to the left on hover */
+  transition: transform 0.3s ease-in-out; /* Example: add transition effect for smooth animation */
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
 }
 
-/* CSS for desktop view */
-@media (min-width: 992px) {
-  /* Add animation or movement styles here for desktop view */
-  .card:hover {
-    transform: translateX(-50px); /* Example: move 10 pixels to the left on hover */
-    transition: transform 0.3s ease-in-out; /* Example: add transition effect for smooth animation */
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
-  }
+.card {
+  width: 100%;
+  aspect-ratio: 3/1;
+  margin-top: 10px;
+}
+.card-body p, a{
+  font-size: 10px;
 }
 
-/* CSS for mobile view */
-@media (max-width: 991px) {
-  /* Add centering styles here for mobile view */
-  .card {
-    margin: 0 auto; /* Example: center the card horizontally */
-  }
+.card img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
+.card .btn {
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+}
+
+
+@media (max-width: 767px) {
+.card {
+  width: 100%;
+  aspect-ratio: 3/1;
+}
+.card-body p, a{
+  font-size: 5px;
+}
+
+
+
+.card img{
+  height: 100%;
+  max-width: 100px;
+  object-fit: cover;
+}
+.card .btn {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+}
+
+
+
 .gif img{
   width: 100%;
   justify-content: center;
-
 }
 
 .contact h2{
   padding-left: 28px;
-}
-.play_button {
-  width:20px;
 }
 
 /*seacrh form*/
@@ -555,17 +584,17 @@ form input:disabled {
 #searchResultsList li {
   margin-bottom: 10px;
 }
-.audio-container {
-  position: relative; /* Set to relative for positioning child elements */
-  width: 300px; /* Set width to desired size */
-  height: 200px; /* Set height to desired size */
+/* .audio-container {
+  position: relative;
+  width: 300px; 
+  height: 200px; 
 }
 
 .audio-file {
-  width: 100%; /* Set width to 100% to fill the container */
-  height: 100%; /* Set height to 100% to fill the container */
-  object-fit: cover; /* Use object-fit to control how the audio file image is displayed within the container */
-}
+  width: 100%; 
+  height: 100%;
+  object-fit: cover; 
+} */
 
 @media (min-width: 768px) {
   .flex-container {
@@ -595,9 +624,8 @@ form input:disabled {
       padding-top: 5px;
   }
   .card-img-top-client {
-    border-radius: 50%;
-    width: 200px;;
-    height: 200px;
+    width: 100%;
+    height: 300px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -642,8 +670,8 @@ form input:disabled {
 }
 
 .card-img-top-client {
-  border-radius: 50%;
-  width: 200px;;
+  border-radius: 5%;
+  width: 200px;
   height: 200px;
   display:flex;
   justify-content: center;
